@@ -2,20 +2,19 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h1 align="center">DoodleFix: An Algorithm for Regularizing Shapes, Analyzing Symmetry, and Completing Complex Doodles</h1>
+<h1 align="center">GeoSketch: An Algorithm for Regularizing Shapes, Analyzing Symmetry, and Completing Complex Doodles</h1>
 <div align="center">
-  <a href="https://github.com/shashivardhan1/doodlefix">
-    <img src="assets/doodlefix-high-resolution-logo.png" alt="DoodleFix Logo">
+  <a href="https://github.com/shashivardhan1/gensolve-adobe-">
   </a>
   <p>
-    DoodleFix is your go-to tool for transforming distorted shapes into their closest geometric forms while ensuring symmetry in the refined shapes.
+    GeoSketch is your go-to tool for transforming distorted shapes into their closest geometric forms while ensuring symmetry in the refined shapes.
   <br />
     <br />
     <a href="https://youtu.be/TOwcUPju1h8">Watch the Demo</a>
     ·
-    <a href="https://github.com/shashivardhan1/doodlefix/issues">Report a Bug</a>
+    <a href="https://github.com/shashivardhan1/gensolve-adobe-/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/shashivardhan1/doodlefix/issues">Request a Feature</a>
+    <a href="https://github.com/shashivardhan1/gensolve-adobe-/issues">Request a Feature</a>
   </p>
 </div>
 
@@ -49,7 +48,7 @@
 
 <h2 id="abouttheproject"> About the Project </h2>
 
-DoodleFix leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology!
+GeoSketch leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology!
 
 Check out our demo [here](https://youtu.be/TOwcUPju1h8).
 
@@ -58,12 +57,6 @@ Check out our demo [here](https://youtu.be/TOwcUPju1h8).
 Our mission is to blend the power of AI with creative expression, transforming irregular doodles into perfect geometric forms. We aim to push the boundaries of shape recognition and correction, turning every sketch into a masterpiece of symmetry and precision.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<h3 id="flowchart"> WorkFlow </h3>
-
-![flowchart](https://github.com/user-attachments/assets/e6acb522-a469-42c3-b3a9-ccb27af42e85)
-![flowchart2](https://github.com/user-attachments/assets/c0de5de4-147b-4660-9031-83e6ae3dd8c9)
-
 <h2 id="keyfeatures"> Key Features </h2>
 
 - 🔧 **Irregular Shape Identification:** Detect and classify various irregular doodle shapes, including polygons, stars, and more. Utilize advanced image processing to handle diverse and complex forms.
@@ -92,39 +85,6 @@ Our mission is to blend the power of AI with creative expression, transforming i
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h1 id="detection"> How DoodleFix Works 🤔 </h1>
-
-**Step 1: Finding Connected Components**
-- Detect and extract distinct shapes from the doodle using connected component analysis. This process involves identifying and labeling clusters of black pixels to determine individual shapes.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/60d9a886-0f31-42eb-999d-64b798c3e430" alt="DoodleFix making sad circle into happy one" style="width: 50%; height: auto;">
-</p>
-
-**Step 2: Classifying Shapes with CNN**
-- Apply a custom CNN model to classify each identified shape into predefined categories such as Square, Circle, Star, Rectangle, or Polygon. The model processes black-and-white images of each shape to determine its class.
-
- <p align="center">
-  <img src="https://github.com/user-attachments/assets/1254558c-eac2-4e06-8c1b-6122c17df7d4" alt="DoodleFix making sad circle into happy one" style="width: 50%; height: auto;">
-</p>
-
-
-**Step 3: Applying Shape Regularization**
-- Use algorithms to transform classified shapes into their correct geometric representations. Regularize the shapes by correcting distortions and aligning them to standard geometric forms.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d5b897a0-19ae-483b-9327-ae3bc270d224" alt="DoodleFix making sad circle into happy one" style="width: 30%; height: auto; margin: 0 10px;">
-  <img src="https://github.com/user-attachments/assets/f3cc6f15-35df-4a9b-aee4-f714e8a2aea6" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
-  <img src="https://github.com/user-attachments/assets/18982be1-df46-4dc4-8543-51fb98aecaf9" alt="Description
-
- of the second image" style="width: 30%; height: auto; margin: 0 10px;">
-</p>
-
-**Step 4: Symmetry Analysis and Shape Completion**
-- Evaluate the regularized shapes for symmetry along multiple axes. Use the detected symmetry to complete missing parts of the shape, ensuring a harmonious and accurate representation.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <h2 id="gettingstarted"> Getting Started </h2>
 
 <h3 id="installation"> Installation Instructions </h3>
@@ -132,13 +92,13 @@ Our mission is to blend the power of AI with creative expression, transforming i
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/shashivardhan1/doodlefix.git
+   git clone https://github.com/shashivardhan1/gensolve-adobe-.git
    ```
 
 2. Install dependencies using Poetry:
 
    ```sh
-   cd doodlefix
+   cd gensolve-adobe-
    poetry install
    ```
 
@@ -150,23 +110,23 @@ Our mission is to blend the power of AI with creative expression, transforming i
 
 <h3 id="example"> Example Usage </h3>
 
-- Run the following command to apply DoodleFix on an image:
+- Run the following command to apply GeoSketch on an image:
 
   ```sh
-  python doodlefix.py --input_path <path_to_input_image> --output_path <path_to_output_image>
+  python gensolve-adobe-.py --input_path <path_to_input_image> --output_path <path_to_output_image>
   ```
 
 - Example:
 
   ```sh
-  python doodlefix.py --input_path ./samples/doodle1.png --output_path ./output/doodle1_fixed.png
+  python gensolve-adobe-.py --input_path ./samples/doodle1.png --output_path ./output/doodle1_fixed.png
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="clicommands"> CLI Commands </h2>
 
-- **Run the model on an image:** Run `python doodlefix.py --input <image_path> --output <output_path>` to classify and regularize shapes in the input image, saving the results to the specified output path.
+- **Run the model on an image:** Run `python gensolve-adobe-.py --input <image_path> --output <output_path>` to classify and regularize shapes in the input image, saving the results to the specified output path.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
