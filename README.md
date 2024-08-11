@@ -4,7 +4,7 @@
 <br />
 <h1 align="center">DoodleFix: An Algorithm for Regularizing Shapes, Analyzing Symmetry, and Completing Complex Doodles</h1>
 <div align="center">
-  <a href="https://github.com/dshashivardhj2c5_team/doodlefix">
+  <a href="https://github.com/shashivardhan1/doodlefix">
     <img src="assets/doodlefix-high-resolution-logo.png" alt="DoodleFix Logo">
   </a>
   <p>
@@ -13,9 +13,9 @@
     <br />
     <a href="https://youtu.be/TOwcUPju1h8">Watch the Demo</a>
     ·
-    <a href="https://github.com/dshashivardhj2c5_team/doodlefix/issues">Report a Bug</a>
+    <a href="https://github.com/shashivardhan1/doodlefix/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/dshashivardhj2c5_team/doodlefix/issues">Request a Feature</a>
+    <a href="https://github.com/shashivardhan1/doodlefix/issues">Request a Feature</a>
   </p>
 </div>
 
@@ -132,7 +132,7 @@ Our mission is to blend the power of AI with creative expression, transforming i
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/dshashivardhj2c5_team/doodlefix.git
+   git clone https://github.com/shashivardhan1/doodlefix.git
    ```
 
 2. Install dependencies using Poetry:
@@ -184,9 +184,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 <h2 id="team"> Team Members </h2>
 
-- **[dshashivardhj2c5_Team](https://github.com/dshashivardhj2c5_team)**
-  - **[Ashutosh Singh](https://github.com/username)**: Implemented the custom CNN model for shape classification.
-  - **[Jane Doe](https://github.com/janedoe)**: Developed the symmetry analysis algorithm and shape regularization.
-  - **[John Smith](https://github.com/johnsmith)**: Handled the data collection and preprocessing pipeline.
+- **[dshashivardhj2c5_Team](https://github.com/shashivardhan1)**
+  - **[Shashivardhan](https://github.com/shashivardhan1)**: Implemented the custom CNN model for shape classification.
+  - **[Bala Barghav](https://github.com/balabhargav9)**: Developed the symmetry analysis algorithm and shape regularization.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
